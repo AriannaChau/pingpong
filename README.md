@@ -1,6 +1,6 @@
 # Ping Pong
 
-#### _{Brief description of application}, {Date of current version}_
+#### Simple game of number ping pong where the user inputs a number and the computer will count up to that number, replacing numbers divisible by 3 with "ping", numbers divisible by 5 with "pong" and numbers divisible by 15 with "ping-pong"
 
 #### By Arianna Chau
 
@@ -10,13 +10,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* Have the latest CSS, Bootstrap and jQuery installed
+* Access to atom if wanting to view/edit code
+* Github account in order to clone the project
 
 ## Specs
 
