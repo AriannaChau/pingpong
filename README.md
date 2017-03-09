@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+This is a project taking an input of numbers from the user and counting up from to number and replacing the numbers divisible by 3, 5, and 15 with ping, pong and ping-pong respectively using arrays and looping in Javascript.
 
 ## Setup/Installation Requirements
 
@@ -23,6 +23,14 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * It can replace numbers divisible by 3 with "ping"
   * Input: 6
   * Output [1, 2, ping, 4, 5, ping]
+
+* It can replace numbers divisible by 5 with "pong"
+  * Input: 10
+  * Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong]
+
+* It can replace numbers divisible by 15 with "ping-pong"
+  * Input: 15
+  * Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]
 
 ## Support and contact details
 
