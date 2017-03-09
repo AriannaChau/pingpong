@@ -1,18 +1,26 @@
-var pingpong = function(number2) {
-  var values = [];
-  // var total = 1;
-  for (var i = 1; i <= number2; i += 1) {
-  values.push(i);
-  console.log(values)
+var pingpong = function(number) {
+var values = [];
+for (var i = 1; i <= number; i += 1) {
 
-  // return total += number;
+  if (i % 3 === 0) {
+    values.push("ping");
+  } else {
+    values.push(i);
+  }
+
 };
+
+return values;
+
 };
 
 $(function() {
   $("form").submit(function(event){
+    event.preventDefault();
     var number = parseInt($("#number").val());
     var result = pingpong(number);
-    event.preventDefault();
-  });
+    $("#total").text(result);
+    console.log(result)
+
+});
 });
