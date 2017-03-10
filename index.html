@@ -10,19 +10,16 @@
   <body>
     <div class="container">
       <h1>Let's play ping pong</h1>
-
       <form>
         <div class="form-group">
           <label for="number">Enter a number to count up to:</label>
-          <input id="number" type="text">
+          <input id="number" type="text" min="1" max="100">
         </div>
-
         <button type="submit" class="btn">Ping!</button>
       </form>
       <div id="output">
-        <p><span id="total"></span></p>
+        <ul></ul>
       </div>
-
     </div>
   </body>
 </html>

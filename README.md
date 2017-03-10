@@ -32,6 +32,13 @@ This is a project taking an input of numbers from the user and counting up from 
   * Input: 15
   * Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]
 
+* It can display numbers in their own unordered list.
+  * Input: 3
+  * Output:
+      * 1
+      * 2
+      * ping
+
 ## Support and contact details
 
 If you need to contact me for questions or concerns, my email is ariannachau@yahoo.com

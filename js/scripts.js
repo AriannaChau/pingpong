@@ -21,9 +21,13 @@ $(function() {
   $("form").submit(function(event){
     event.preventDefault();
     var number = parseInt($("#number").val());
-    var result = pingpong(number);
-    $("#total").text(result);
-    console.log(result)
+    var results = pingpong(number);
+
+    results.forEach(function(result) {
+    $("#output ul").append("<li>" + result + "</li>")
+
+  });
+    console.log(results)
 
 });
 });
