@@ -1,3 +1,4 @@
+// Back end logic
 var pingpong = function(number) {
 var values = [];
 for (var i = 1; i <= number; i += 1) {
@@ -11,23 +12,20 @@ for (var i = 1; i <= number; i += 1) {
   } else {
     values.push(i);
   }
-
 };
   return values;
 };
 
-
+// Front end logic
 $(function() {
   $("form").submit(function(event){
     event.preventDefault();
     var number = parseInt($("#number").val());
     var results = pingpong(number);
-
+    $("#output ul").empty();
     results.forEach(function(result) {
     $("#output ul").append("<li>" + result + "</li>")
-
   });
     console.log(results)
-
 });
 });
