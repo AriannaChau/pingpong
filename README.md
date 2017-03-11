@@ -8,6 +8,10 @@
 
 This is a project taking an input of numbers from the user and counting up from to number and replacing the numbers divisible by 3, 5, and 15 with ping, pong and ping-pong respectively using arrays and looping in Javascript.
 
+## Link to Site
+
+https://ariannachau.github.io/pingpong/
+
 ## Setup/Installation Requirements
 
 * Have the latest CSS, Bootstrap and jQuery installed
